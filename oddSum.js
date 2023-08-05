@@ -41,8 +41,8 @@ function evenSum(arrayNumber){
 
 let numbers = [12,45,23,6,34,87,34,13];
 
-console.log(oddFinder(numbers));
-console.log(oddSum(numbers));
+console.log(oddFinder(numbers),'=', oddSum(numbers));
+// console.log(oddSum(numbers));
 
-console.log(evenFinder(numbers));
-console.log(evenSum(numbers));
+console.log(evenFinder(numbers),'=', evenSum(numbers));
+// console.log(evenSum(numbers));
