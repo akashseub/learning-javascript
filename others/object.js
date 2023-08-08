@@ -13,7 +13,7 @@ let propertyValues = Object.values(myComputer);
 // console.log(propertyValues);
 
 let itemsName = "ssd";
-myComputer[itemsName] = "512gb";
+myComputer.ram = "512gb";
 let itemsValue = myComputer[itemsName];
 
 console.log(itemsName, itemsValue);
